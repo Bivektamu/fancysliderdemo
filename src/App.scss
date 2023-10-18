@@ -21,7 +21,15 @@ body {
 }
 
 main {
-  .container1, .container3 {
+  .fancySlider {
+    img {
+      aspect-ratio:2/2.5;
+      object-fit: cover;
+
+    }
+  }
+  .container1,
+  .container3 {
     padding: 100px 40px;
     background: grey;
     .pre {
@@ -38,8 +46,7 @@ main {
       .code {
         max-width: 100%;
         line-height: 1.6;
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-
+        font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New";
       }
     }
   }
@@ -61,13 +68,13 @@ main {
       .code {
         max-width: 100%;
         line-height: 1.6;
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-
+        font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New";
       }
     }
   }
 
-  .slider1, .slider2 {
+  .slider1,
+  .slider2 {
     width: 1000px;
     max-width: 100%;
   }

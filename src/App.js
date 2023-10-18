@@ -1,12 +1,12 @@
 import "./App.scss";
 import { Slider } from "react-fancyslider";
 
-import imgO from "./images/2a.jpg";
-import imgT from "./images/2b.jpg";
-import imgTh from "./images/2c.jpg";
-import imgF from "./images/2d.jpg";
-import imgFi from "./images/2e.jpg";
-import imgS from "./images/2f.jpg";
+import imgO from "./images/1.jpg";
+import imgT from "./images/2.jpg";
+import imgTh from "./images/3.jpg";
+import imgF from "./images/4.jpg";
+import imgFi from "./images/5.jpg";
+import imgS from "./images/6.jpg";
 
 function App() {
   const imgArray1 = [imgO, imgT, imgTh, imgF, imgFi, imgS];
@@ -22,7 +22,7 @@ function App() {
             className="slider1"
             slideToShow={3}
             images={imgArray1}
-            auto={true}
+            auto={false}
             timer={1000}
             transitionTime={500}
             directionNav={true}
@@ -43,7 +43,7 @@ function App() {
           <Slider
             className="slider2"
             slideToShow={2}
-            auto={true}
+            auto={false}
             animationEasing={'fade'}
             images={imgArray2}
             timer={2000}
