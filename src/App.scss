@@ -18,20 +18,28 @@ body {
   font-size: 40px;
   font-weight: bold;
   padding: 50px 0;
+  box-sizing: border-box;
+  @media screen and (max-width: 760px) {
+    font-size: 20px;
+    padding: 20px;
+    width: 100%;
+  }
 }
 
 main {
   .fancySlider {
     img {
-      aspect-ratio:2/2.5;
+      aspect-ratio: 2/2.5;
       object-fit: cover;
-
     }
   }
   .container1,
   .container3 {
     padding: 100px 40px;
     background: grey;
+    @media screen and (max-width: 760px) {
+      padding: 50px 20px;
+    }
     .pre {
       background: beige;
       color: grey;
@@ -47,6 +55,9 @@ main {
         max-width: 100%;
         line-height: 1.6;
         font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New";
+        @media screen and (max-width: 760px) {
+          font-size: 12px;
+        }
       }
     }
   }
@@ -54,6 +65,9 @@ main {
   .container2 {
     padding: 100px 40px;
     background: white;
+    @media screen and (max-width: 760px) {
+      padding: 50px 20px;
+    }
     .pre {
       background: grey;
       color: white;
@@ -69,6 +83,9 @@ main {
         max-width: 100%;
         line-height: 1.6;
         font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New";
+        @media screen and (max-width: 760px) {
+          font-size: 12px;
+        }
       }
     }
   }
@@ -80,5 +97,6 @@ main {
   }
   .slider3 {
     width: 500px;
+    max-width: 100%;
   }
 }
