@@ -37,6 +37,6 @@
   },
   "devDependencies": {
     "node-sass": "^7.0.3",
-    "react-fancyslider": "^0.1.1"
+    "react-fancyslider": "^2.0.1"
   }
 }
